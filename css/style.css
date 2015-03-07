@@ -28,7 +28,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
+body { 
 	line-height: 1;
 }
 ol, ul {
@@ -53,3 +53,32 @@ body {
 div {
     border: 1px solid Chocolate;
 }
+
+/* Navigation Section */
+.top-navigation {
+    background-color: #fff;
+}
+.top-navigation > .content {
+	font-family: 'Roboto', sans-serif; 
+font-size: 16px; 
+color: #838994; 
+letter-spacing: 0.03em;
+    width: 970px;
+    height: 70px;
+    margin: 0 auto;
+	
+    padding: 0px 15px;
+
+}
+
+.top-navigation .links > .active {
+    color: #4c5058;
+    font-weight: 600;
+    font-size: 800px;
+}
+
+
+.links {display: inline-block;}
+
+.top-navigation:hover {background-color: yellow;}
+
