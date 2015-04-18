@@ -44,6 +44,9 @@ ol, ul {
 /* Start of Custom Styles */
 .content {
     padding: 0 15px;
+    width: 970px;
+    height: 70px;
+    margin: 0 auto;
 }
 .top-navigation .links {
     float: right;
@@ -60,14 +63,20 @@ ol, ul {
 .top-navigation .links .active {
     color: #4c5058;
     font-weight: 500;
-    position: fixed;
-	width: 100%;
+  
 	z-index: 9999;
 }
 .top-navigation .links li:hover {
     cursor: pointer;
     color: #333333;
 }
+
+/* Navigation Section */
+.top-navigation {
+    background-color: #fff;
+}
+
+
 
 .introduction {
     background-image: url('../images/first-background-copy.jpg');
@@ -88,10 +97,19 @@ button {
   font-size: 1.125rem;
 }
 
+.big-button {
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 16px 26px;
+    line-height: 1.33;
+}
+
 .introduction h1, .introduction h3 {
   color: white;
   text-align: center;
   font-weight: 300;
+  font-size: 3em;
 }
 
 .cases .devices {
@@ -101,4 +119,8 @@ button {
     border: 1px solid black;
     box-sizing: border-box;
     height: 4em;
+}
+
+.top-navigation .logo {
+  height: 4.375rem;
 }
